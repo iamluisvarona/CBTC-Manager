@@ -345,7 +345,7 @@
     <footer class="centrarDiv">
         <div class="plantilla horizontal2 centradoVert divDatosPlantilla">
             <div class="divDatoIzq"><p>Puntos</p></div>
-            <div class="divDatoDcha"><p>54.4</p></div>
+            <div class="divDatoDcha"><p>1</p></div>
         </div>
         <div class="plantilla horizontal2 centradoVert divDatosPlantilla" id="">
             <div class="divDatoIzq"><p>Dinero en caja</p></div>
