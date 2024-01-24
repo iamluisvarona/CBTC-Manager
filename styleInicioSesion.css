@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'FuenteSM3C';
+    src: url(./fonts/ElValle.ttf);
+}
+* {
+    font-family: FuenteSM3C;
+}
+body {
+    background-color: #2F006A;
+    margin: 0;
+}
+.plantilla {
+    display: grid;
+}
+.horizontalHeader {
+    grid-template-columns: 20% 80%;
+}
+.horizontal2 {
+    grid-template-columns: 50% 50%;
+}
+.horizontalTarjetaMercado {
+    grid-template-columns: 20% 50% 30%;
+}
+.horizontalTarjetaJugador {
+    grid-template-columns: 60% 40%;
+}
+.horizontal4 {
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.horizontal3 {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.horizontal5 {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.vertical3 {
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+.vertical2 {
+    grid-template-rows: 50% 50%;
+}
+
+h5, p, h4, h3 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.centradoAbajo {
+    align-items:end;
+}
+.centradoArriba {
+    align-items: start;
+}
+
+.margenIzq {
+    margin-left: 15px;
+}
+
+.centradoVert {
+    align-items: center;
+}
+.centrarTexto {
+    text-align: center;
+}
+.centrarDiv {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    margin-top: 50%;
+}
+
+.divImgLogo {
+    width: fit-content;
+}
+.imgLogo {
+    width: 80%;
+}
+.divTxtBienvenido {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.txtBienvenido {
+    color: white;
+    font-size: 35px;
+}
+.btnJugar {
+    color: white;
+    background: red;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+}

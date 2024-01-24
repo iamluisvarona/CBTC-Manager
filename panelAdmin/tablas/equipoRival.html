@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo Rival</title>
+    <link rel="stylesheet" href="../panelAdmin.css">
+</head>
+<body>
+    <header>
+        <a class="btnSubmit" href="../index.html">Volver</a>
+        <h1>Equipo Rival</h1>
+    </header>
+    <main>
+        <form class="formAdmin" action="../php/subirEquipoRival.php" method="POST">
+            <label class="etiquetaFormAdmin" for="nomEquipoRival">Nombre Equipo:</label>
+            <input class="inputFormAdmin" type="text" name="nomEquipoRival" required><br>
+
+            <label class="etiquetaFormAdmin" for="aliasEquipoRival">Alias Equipo:</label>
+            <input class="inputFormAdmin" type="text" name="aliasEquipoRival" required><br>
+
+            <label class="etiquetaFormAdmin" for="imgEquipoRival">Img Equipo:</label>
+            <input class="inputFormAdmin" type="text" name="imgEquipoRival" value="./img/Equipos/eqSinLogo.png" required><br>
+
+            <button class="btnSubmit" type="submit">Subir Equipo Rival</button>
+        </form>
+    </main>
+</body>
+</html>

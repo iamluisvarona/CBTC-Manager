@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'FuenteSM3C';
+    src: url(./fonts/ElValle.ttf);
+}
+* {
+    font-family: FuenteSM3C;
+}
+body {
+    background-color: #2F006A;
+    margin: 0;
+}
+.plantilla {
+    display: grid;
+}
+.horizontal3 {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.horizontal2 {
+    grid-template-columns: 50% 50%;
+}
+.horizontal4 {
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.horizontal7030 {
+    grid-template-columns: 60% 40%;
+}
+
+.centradoVert {
+    align-items: center;
+}
+.centrarTexto {
+    text-align: center;
+}
+.centrarDiv {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.valPositiva {
+    background: green;
+}
+.valNegativa {
+    background: red;
+}
+.valCero {
+    background: orange;
+}
+.valVacia {
+    background: rgb(56, 56, 56);
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+header {
+    background: white;
+}
+header a {
+    color: black;
+    text-decoration: none;    
+}
+#divVolver {
+    margin-left: 20px;
+}
+#nomEquipo {
+    font-size: 20px;
+}
+#divGestionarPlantilla {
+    margin-right: 20px;
+}
+#btnGestionarPlantilla {
+    text-align: right;
+}
+main {
+    margin-bottom: 150px;
+}
+.titApartado {
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#divPlantillaJugadores {
+    background: #2F006A;
+    width: 90%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titTipoJugador {
+    width: fit-content;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    background-color:blueviolet;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.titTipoEntrenador {
+    width: fit-content;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    background-color:blueviolet;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#divPlantillaJugadoresInt {
+    margin-top: -15px;
+}
+#divPlantillaJugadoresExt {
+    margin-bottom: 30px;
+    margin-top: -15px;
+}
+
+#divEntrenadorPrincipal {
+    margin-left: auto;
+    margin-right: 10px;
+}
+#divEntrenadorAyudante {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.anchoJugadorExt {
+    width: 90%;
+}
+.anchoJugadorInt {
+    width: 67%;
+}
+
+.anchoEnt {
+    width: 85px;
+}
+
+.divTarjetaJugadorFondo {
+    height: 80px;
+    margin-bottom: 10px;
+}
+.divContenedor {
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 10px black; */
+}
+
+.divImgJugador {
+    width: 100%;
+    background: url(./img/fondoImg.png);
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100%;
+}
+.imgJugador {
+    filter: drop-shadow(0px 0px 5px black);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.divInfoJugador {
+    text-align: center;
+}
+.infoJugador {
+    background: blueviolet;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: sticky;
+}
+.nomJugador {
+    font-size: 15px;
+    margin: 0px;
+    color: white;
+    padding-bottom: 2px;
+    padding-top: 3px;
+}
+.divValJugador {
+    color: white;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+#divJugadorExt1, #divJugadorExt4, #divJugadorInt1, #divJugadorInt3 {
+    margin-top: 50px;
+}
+
+
+footer {
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+}
+.divDatosPlantilla {
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.divDatoIzq {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.divDatoDcha {
+    margin-right: 20px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+}

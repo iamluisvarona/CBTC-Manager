@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'FuenteSM3C';
+    src: url(./fonts/ElValle.ttf);
+}
+* {
+    font-family: FuenteSM3C;
+}
+body {
+    background-color: #2F006A;
+    margin: 0;
+}
+.plantilla {
+    display: grid;
+}
+.horizontalHeader {
+    grid-template-columns: 20% 80%;
+}
+.horizontal2 {
+    grid-template-columns: 50% 50%;
+}
+.horizontalTarjetaMercado {
+    grid-template-columns: 20% 50% 30%;
+}
+.horizontalTarjetaJugador {
+    grid-template-columns: 60% 40%;
+}
+.horizontal4 {
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.horizontal3 {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.horizontal5 {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.vertical3 {
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+.vertical2 {
+    grid-template-rows: 50% 50%;
+}
+
+h5, p, h4 {
+    margin: 0;
+}
+
+.centradoAbajo {
+    align-items:end;
+}
+.centradoArriba {
+    align-items: start;
+}
+
+.margenIzq {
+    margin-left: 15px;
+}
+
+.centradoVert {
+    align-items: center;
+}
+.centrarTexto {
+    text-align: center;
+}
+.centrarDiv {
+    margin-left: auto;
+    margin-right: auto;
+}
+header a {
+    text-decoration: none;
+}
+#divVolver {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#btnVolver {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+main {
+    margin-bottom: 20px;
+}
+.divTarjetaJugador {
+    background: #D9D9D9;
+    width: 90%;
+}
+.divImgJugador {
+    width: 80%;
+    height: 100px;
+    background: url(./img/fondoImg.png);
+    background-size: cover;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+.imgJugador {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0px 0px 5px black);
+    vertical-align: bottom;
+}
+.divDatosJugador {
+    margin-top: 10%;
+    margin-left: 10%;
+    height:80%;
+}
+.nomJugador {
+    font-size: 25px;
+    font-weight: bold;
+}
+.divNumJugador {
+    width: fit-content;
+}
+.numJugador {
+    font-size: 25px;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+}
+.datoJugador {
+    font-size: 18px;
+}
+
+.divTipoJugador {
+    width: 80%;
+    background-color: blueviolet;
+    color: white;
+    margin-bottom: 10%;
+}
+.tipoJugador {
+    text-align: center;
+    padding-top: 2px;
+}
+.divEquipoJugador {
+    margin-bottom: 10%;
+}
+
+.divContenedorJornadas {
+    background: #D9D9D9;
+    width: 90%;
+    height: fit-content;
+}
+
+.titSeccion {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.divJornadas {
+    width: 90%;
+    padding-bottom: 20px;
+}
+.divJornada {
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    background: blueviolet;
+}
+.divImgEquipoRival {
+    width: 90%;
+}
+.divValJornada {
+    width: 90%;
+}
+.imgEquipoRival {
+    width: 100%;
+}
+.valJornada {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.divSeleccionado {
+    background-color: rgb(158, 7, 7);
+}
+
+.divEstadisticas {
+    margin-bottom: 2px;
+    background-color: #929191;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+}
+.titEstadisticas {
+    text-align: center;
+    font-weight: bold;
+}
+.lineaEstadistica {
+    padding-top: 2px;
+}
+
+.titValor {
+    font-size: 25px;
+}
+
+.divTextoVal {
+    margin-left: 10%;
+}
+.divDatoVal {
+    text-align: right;
+    margin-right: 10%;
+}
+.valTotal {
+    font-weight: bold;
+    font-size: 20px;
+    background: #929191;
+    padding: 5px 5px 2px 5px;
+}
+.divDatosVal {
+    padding-bottom: 10px;
+}
+.valPartido {
+    padding: 5px 5px 2px 5px;
+}
+
+.divContenedorValorJugador {
+    width: 90%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #929191;
+}
+.divValorJugador {
+    width: fit-content;
+    margin-bottom: 10px;
+}
+.valorJugador {
+    font-size: 20px;
+    font-weight: bold;    
+}
+.divTextoBroker {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.divContenedorValores {
+    padding-bottom: 10px;
+}
+.valorNegrita {
+    font-weight: bold;
+}
+.divSelectJornadas {
+    width: fit-content;
+}
+#selectJornadas {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #D9D9D9;
+    border-radius: 10px;
+}

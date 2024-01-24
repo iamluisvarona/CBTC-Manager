@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada</title>
+    <link rel="stylesheet" href="../panelAdmin.css">
+</head>
+<body>
+    <header>
+        <a class="btnSubmit" href="../index.html">Volver</a>
+        <h1>Jornada</h1>
+    </header>
+    <main>
+        <form class="formAdmin" action="../php/subirJornada.php" method="POST">
+            <label class="etiquetaFormAdmin" for="numJornada">Num. Jornada:</label>
+            <input class="inputFormAdmin anchoInpDorsal" type="number" name="numJornada" id="numJornada" required><br>
+            <label class="etiquetaFormAdmin" for="fecInicio">Fecha Inicio:</label>
+            <input class="inputFormAdmin" type="date" name="fecInicio" id="fecInicio" required><br>
+            <label class="etiquetaFormAdmin" for="fecFinal">Fecha Final:</label>
+            <input class="inputFormAdmin" type="date" name="fecFinal" id="fecFinal" required><br>
+            <button class="btnSubmit" type="submit">Subir Jornada</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'FuenteSM3C';
+    src: url(../fonts/ElValle.ttf);
+}
+* {
+    font-family: FuenteSM3C;
+}
+body {
+    background-color: #2F006A;
+    margin: 0;
+}
+header {
+    color:white;
+    margin: 50px;
+    font-style: italic;
+}
+h1 {
+    padding: 20px;
+}
+h2 {
+    color: white;
+}
+.plantilla {
+    display: grid;
+}
+.horizontal2 {
+    grid-template-columns: 50% 50%;
+}
+.anchoResultadoPartido {
+    width: 100%;
+}
+.divResultado {
+    border: 3px solid white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.centrarItems {
+    width: fit-content;
+    margin: auto;
+}
+
+.centrarTexto {
+    text-align: center;
+}
+.btnMenuAdmin {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    background: blueviolet;
+    border-radius: 20px;
+}
+.btnMenuAdmin:hover {
+    color: #2F006A;
+    background: white;
+}
+.divBtnMenuAdmin {
+    margin: 50px;
+}
+
+.formAdmin {
+    margin: 50px;
+    border: 5px solid white;
+    padding: 50px;
+    border-radius: 20px;
+    width: fit-content;
+}
+.etiquetaFormAdmin {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.inputFormAdmin {
+    margin: 20px;
+    background: #2F006A;
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    color-scheme: dark;
+}
+.btnSubmit {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: #2F006A;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.btnSubmit:hover {
+    background: white;
+    color: #2F006A;
+    cursor: pointer;
+}
+
+table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+th {
+    color: white;
+}
+
+.inputTabla {
+    margin: 0px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+.anchoInpDorsal {
+    width: 40px;
+}
+.anchoInpNombre {
+    width: 100px;
+}
+.anchoInpValor {
+    width: 75px;
+}
+.anchoInpImg {
+    width: 150px;
+}

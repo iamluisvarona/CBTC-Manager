@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'FuenteSM3C';
+    src: url(../../fonts/ElValle.ttf);
+}
+* {
+    font-family: FuenteSM3C;
+}
+body {
+    background-color: #2F006A;
+    margin: 0;
+}
+.plantilla {
+    display: grid;
+}
+.horizontalHeader {
+    grid-template-columns: 20% 80%;
+}
+.horizontalHeaderMenu {
+    grid-template-columns: 30% 70%;
+}
+.centradoVert {
+    align-items: center;
+}
+.centrarTexto {
+    text-align: center;
+}
+.centrarDiv {
+    margin-left: auto;
+    margin-right: auto;
+}
+.logoSM {
+    width: 100%;
+}
+.titMenu {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.formInicio {
+    background-color: #d9d9d9;
+    padding-top: 10px;
+
+}
+.anchoformInicio {
+    width: 80%;
+}
+.textoRegistro {
+    color: #2F006A;
+}
+p a {
+    text-decoration: none;
+    color: #2F006A;
+    text-decoration: underline;
+}
+
+.divInputInicio {
+    width:80%;
+}
+.inputInicio {
+    background-color: #d9d9d9;
+    border: 0px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #2F006A;
+    width: 100%;
+    font-size: 20px;
+    color: #2F006A;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: none;
+}
+.inputInicio::placeholder {
+    color: #2F006A;
+    font-size: 20px;
+}
+.divBtnInicio {
+    width: 40%;
+    margin-top: 20px;
+}
+.btnInicio {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+.divTxtRegistro {
+    padding-bottom: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.divMostrarMensajes {
+    background-color: #d9d9d9;
+    width: 80%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
